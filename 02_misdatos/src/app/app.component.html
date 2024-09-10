@@ -1,0 +1,9 @@
+<div>
+  Introduce nombre:<input type="text" [(ngModel)]="nombre"> <!--recoger los datos de la vista hacia controlador-->
+  <br><br>
+  Introduce Edad:<input type="text" [(ngModel)]="edad"><!--ngModel está dentro de FormsModule-->
+  <br><br>
+  <input type="button" value="Mostrar" (click)="mostrar()">
+  <br><br>
+  {{texto}} <!--nombre de la variable-->
+</div>
