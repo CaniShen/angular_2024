@@ -8,13 +8,15 @@ import { FormsModule } from '@angular/forms';
 import { provideHttpClient } from '@angular/common/http';
 import { AltaComponent } from './controller/alta/alta.component';
 import { MenuComponent } from './controller/menu/menu.component';
+import { BuscarporurlComponent } from './controller/buscarporurl/buscarporurl.component';
 
 
 @NgModule({
   declarations: [
     BuscadorComponent,
     AltaComponent,
-    MenuComponent
+    MenuComponent,
+    BuscarporurlComponent
   ],
   imports: [
     BrowserModule,
