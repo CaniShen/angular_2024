@@ -13,11 +13,11 @@ constructor(private buscadorService: BuscadorService) {
 }
 
 url:string;
-resultadosPorUrl:Resultado;
+resultadoPorUrl:Resultado;
 
 buscarPorUrl():void{
   this.buscadorService.buscarPorUrl(this.url)///Observable<Resultado>
-   .subscribe(data=>this.resultadosPorUrl=data);//indicamos lo que hay que hacer cuando los resultados estén disponibles
+   .subscribe(data=>this.resultadoPorUrl=data);//indicamos lo que hay que hacer cuando los resultados estén disponibles
 }
 
 

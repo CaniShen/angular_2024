@@ -9,11 +9,11 @@
       <br>
       <br>
       <br>
-      <table border="1" *ngIf="resultadosPorUrl">
+      <table border="1" *ngIf="resultadoPorUrl">
         <tr><th>Url</th><th>Tematica</th><th>Descripcion</th></tr>
-        <tr *ngFor="let r resultadosPorUrl">
-          <td><a href="{{r.url}}">{{r.url}}</a></td><td>{{r.tematica}}</td><td>{{r.descripcion}}</td>
-        </tr>
+
+          <td><a href="{{resultadoPorUrl.url}}">{{resultadoPorUrl.url}}</a></td><td>{{resultadoPorUrl.tematica}}</td><td>{{resultadoPorUrl.descripcion}}</td>
+
       </table>
 
   </div>

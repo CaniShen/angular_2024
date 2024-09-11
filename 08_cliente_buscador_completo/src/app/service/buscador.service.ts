@@ -27,7 +27,7 @@ export class BuscadorService {
     }
 
     buscarPorUrl(urlIntro:string):Observable<Resultado> {
-      let url:string="http://localhost:8080/buscar/"+urlIntro;
+      let url:string="http://localhost:8080/buscar?url="+urlIntro;
       return this.http.get<Resultado>(url);
     }
 
