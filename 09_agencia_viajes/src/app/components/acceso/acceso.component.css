@@ -1,0 +1,37 @@
+h2 {
+  color: #e74c3c;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-size: 16px;
+}
+
+input, select, button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #e74c3c;
+  color: #fff;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+button:hover {
+  background-color: #c0392b;
+}
+
+#register-form {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+}
